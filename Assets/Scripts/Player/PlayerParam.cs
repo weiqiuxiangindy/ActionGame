@@ -9,7 +9,7 @@ namespace ActionGame.Player
     /// </summary>
     public class PlayerParam : IParam
     {
-        public int HP => throw new System.NotImplementedException();
-        public bool IsJump => throw new System.NotImplementedException();
+        public int HP { get; }
+        public bool IsJump { get; }
     }
 }
